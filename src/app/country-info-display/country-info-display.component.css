@@ -1,0 +1,15 @@
+div {
+    /* display: block; */
+    width: min-content;
+    max-width: 30vw;
+    }
+
+.country-title {
+    color: hotpink;
+    text-align: center;
+    background-color: lavenderblush;
+    margin: 0;
+    font-size: 2.5vh;
+    padding: 0.3em;
+    margin: 0;
+}

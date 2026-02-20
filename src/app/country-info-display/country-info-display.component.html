@@ -1,0 +1,16 @@
+<div class="country-info-display">
+  <h1 class="country-title">{{ countryInfo.name }} ({{ selectedCountryId.toUpperCase() }})</h1>
+  <!-- <p>Capital City: {{ countryInfo.data?.capitalCity }}</p> -->
+  <ul *ngIf="countryInfo.data && countryInfo.data | keyvalue as infoItems">
+
+  <li *ngFor="let item of infoItems">
+    <strong>{{ item.key }}:</strong> {{ item.value }}</li>
+  </ul>
+  <!-- <p><strong>Capital:</strong> {{ capital }}</p>
+  <p><strong>Population:</strong> {{ population | number }}</p>
+  <p><strong>Area:</strong> {{ area | number }} km²</p>
+  <p><strong>Region:</strong> {{ region }}</p>
+  <p><strong>Subregion:</strong> {{ subregion }}</p>
+  <p><strong>Currencies:</strong> {{ currencies }}</p>
+  <p><strong>Languages:</strong> {{ languages }}</p> -->
+</div>

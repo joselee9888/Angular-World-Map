@@ -1,0 +1,14 @@
+path {
+    fill: pink;
+}
+
+path:hover {
+    fill: hotpink;
+}
+
+svg {
+    /* position: relative; */
+    height: 95%;
+    padding: 1.5% 0 0 0;
+    margin: 0;
+}

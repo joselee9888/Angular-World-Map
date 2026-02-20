@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  /*grid-template-columns: 1fr 4fr; /* 1 part for the left, 4 parts for the right */
+  flex-direction: row;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+div.country-info-container {
+  display: block;
+  width:min-content;
+  max-width: 20vw;
+}
+
+.map-container {
+  /* display: block; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+app-map-shell {
+  padding: 0;
+  margin: 0;
+}

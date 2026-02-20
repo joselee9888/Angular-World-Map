@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Lucida Handwriting', 'Freestyle Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1.app-title {
+    color: hotpink;
+    text-align: center;
+    background-color: lavenderblush;
+    margin: 0;
+    font-size: 3.5vh;
+    padding: 0.4em;
+    margin: 0;
+}
