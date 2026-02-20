@@ -1,8 +1,6 @@
 
 Josephine Lee
 
-student id: 011327720
-
 
 Angular CLI: 17.3.17
 
